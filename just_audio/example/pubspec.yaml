@@ -1,6 +1,6 @@
 name: just_audio_example
 description: Demonstrates how to use the just_audio plugin.
-publish_to: 'none'
+publish_to: "none"
 
 environment:
   sdk: ">=2.17.0 <4.0.0"
@@ -8,14 +8,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  audio_session: ^0.1.14
-  rxdart: ^0.27.7
-  just_audio_mpv: ^0.1.6
-  just_audio_windows: ^0.2.0
   # Other platform implementations below:
   # just_audio_libwinmedia: ^0.0.4
   just_audio:
     path: ../
+  dio: ^5.4.1
 
 # Uncomment when testing platform interface changes.
 # dependency_overrides:
